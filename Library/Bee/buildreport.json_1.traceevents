@@ -1,0 +1,524 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674011226653003, "dur": 2190139, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011226653311, "dur": 9801, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011226663116, "dur": 32889, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011226696007, "dur": 296791, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011226992800, "dur": 1839072, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011228831874, "dur": 11267, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011228844072, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674011226824411, "dur": 148122, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674011226825648, "dur": 59421, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674011226947386, "dur": 6594, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674011226953986, "dur": 18527, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674011226955040, "dur": 16276, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674011226980040, "dur": 1627, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674011226979005, "dur": 2708, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011228844259, "dur": 354, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674011227043562, "dur":1841, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011227045419, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674011227045501, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674011227045519, "dur":386, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674011227045949, "dur":1006, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011227046956, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808612, "dur":231, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808843, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808861, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808878, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808889, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808891, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808901, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808903, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808911, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808913, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808919, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808921, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808928, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808930, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808937, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808939, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808946, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808966, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228808982, "dur":3052, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674011227046385, "dur":581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227046969, "dur":6862, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227053849, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674011227053853, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227053953, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674011227053959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227068248, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674011227070459, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674011227070553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227070582, "dur":16108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674011227086795, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227086879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227086968, "dur":214963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227301997, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227302087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227302121, "dur":79922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227382103, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227382158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227382170, "dur":31879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227414117, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227414183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227414195, "dur":71085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227485341, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227485408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227485419, "dur":28072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227513563, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227513630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227513641, "dur":46691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227560407, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227560487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227560501, "dur":32591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227593176, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227593249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227593261, "dur":64271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227657670, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227657764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227657783, "dur":44548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227702395, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227702453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227702465, "dur":48350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227750879, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227750948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227750960, "dur":66718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227817737, "dur":63023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227880767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227880781, "dur":15067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227895912, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227897210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227897253, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227898660, "dur":84557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227983224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227983236, "dur":15933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227999234, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011227999290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011227999301, "dur":404075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011228403445, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011228403512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674011228403525, "dur":405000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674011228808583, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1674011228808586, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227046467, "dur":511, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227046979, "dur":6858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227053849, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674011227053994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227085092, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674011227091154, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227091249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227091299, "dur":210789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227302169, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227302244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227302253, "dur":59139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227361463, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227361531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227361543, "dur":48831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227410448, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227410533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227410547, "dur":50045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227460651, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227460738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227460747, "dur":70893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227531706, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227531838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227531851, "dur":44543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227576462, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227576544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227576556, "dur":28858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227605477, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227605547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227605556, "dur":51070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227656695, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227656791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227656804, "dur":50652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227707512, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227707578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227707591, "dur":30023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227737673, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227737733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227737747, "dur":38238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227776054, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227776138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227776163, "dur":167765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227944032, "dur":1245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227945283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227945333, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227947116, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227948178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227948194, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227949837, "dur":1158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227951003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227951018, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227952647, "dur":1356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227954010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227954024, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227956065, "dur":35249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011227991321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011227991336, "dur":11108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011228002514, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011228002580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011228002592, "dur":196164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011228198817, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011228198895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011228198908, "dur":230004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674011228428972, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1674011228429032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011228429098, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1674011228432022, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1674011228432541, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011228432610, "dur":6108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1674011228438796, "dur":11511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1674011228450315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674011228450333, "dur":3807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1674011228454224, "dur":354384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227046438, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227046973, "dur":6867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227053848, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674011227053973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227069432, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674011227071704, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674011227071780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227071795, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674011227077150, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1674011227077278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227077286, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1674011227080916, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1674011227081069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227082006, "dur":9555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1674011227091626, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227091699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227091712, "dur":210625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227302434, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227302538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227302558, "dur":129987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227432605, "dur":169709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227602321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227602337, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227605130, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227605290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227605299, "dur":77505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227682879, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227682937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227682948, "dur":87235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227770257, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227770331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227770343, "dur":29580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227799995, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227800062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227800074, "dur":41201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227841334, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227841396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227841408, "dur":82614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227924090, "dur":40923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227965020, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227965043, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227966592, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011227966658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011227966701, "dur":119075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228085847, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228085927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011228085939, "dur":45048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228131069, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228131130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011228131142, "dur":41367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228172579, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228172650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674011228172662, "dur":286165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674011228458920, "dur":349694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227046509, "dur":476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227046985, "dur":6850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227053849, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674011227053957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227057710, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674011227061522, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674011227061606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227062522, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674011227067250, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674011227067334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227070395, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674011227071790, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674011227071875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227071884, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674011227074547, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227074628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227075023, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227078136, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise.exe" }}
+,{ "pid":12345, "tid":4, "ts":1674011227078315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227078328, "dur":224890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise.exe" }}
+,{ "pid":12345, "tid":4, "ts":1674011227303284, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227303360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227303369, "dur":26873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227330305, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227330382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227330393, "dur":108861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227439319, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227439376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227439389, "dur":55787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227495237, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227495295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227495306, "dur":65570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227560951, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227561029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227561043, "dur":73572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227634678, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227634741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227634754, "dur":35428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227670244, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227670313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227670326, "dur":29895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227700290, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227700364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227700376, "dur":50746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227751183, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227751243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227751253, "dur":108246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227859563, "dur":99110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227958680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227958693, "dur":4368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227963127, "dur":19539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227982673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227982686, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227986428, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011227986494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011227986507, "dur":321069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011228307649, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011228307723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674011228307735, "dur":184342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674011228492148, "dur":316463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227046546, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227046991, "dur":6848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227053848, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1674011227053976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227071048, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1674011227073162, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1674011227073289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227073305, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1674011227077019, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227077096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227077102, "dur":224686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227302605, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227302717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227302727, "dur":129829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227432622, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227432692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227432707, "dur":66159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227498968, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227499033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227499045, "dur":92227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227591343, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227591410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227591422, "dur":73740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227665227, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227665293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227665304, "dur":41718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227707143, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227707248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011227707263, "dur":176958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011227884312, "dur":294877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228179196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011228179210, "dur":20386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228199670, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228199734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011228199746, "dur":46877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228246680, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228246741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011228246751, "dur":176933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228423753, "dur":36916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228460675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674011228460689, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674011228462494, "dur":346123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227046600, "dur":396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227046996, "dur":6838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227053848, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1674011227054096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227089865, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1674011227091821, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227091901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227091910, "dur":210026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227347469, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227347597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227347654, "dur":66489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227414203, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227414265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227414273, "dur":242817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227657154, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227657220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227657247, "dur":128076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227785386, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227785451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227785463, "dur":48353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227833895, "dur":113713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227947615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227947629, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227952247, "dur":37669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227989922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227989936, "dur":6609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227996656, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011227996779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011227996799, "dur":66547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228063410, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228063472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011228063484, "dur":101920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228165469, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228165527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011228165538, "dur":226646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228392252, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228392332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674011228392453, "dur":79223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674011228471741, "dur":336868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227046634, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227047001, "dur":6840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227053849, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674011227053956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227057410, "dur":4036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674011227061548, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1674011227061624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227062488, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1674011227064526, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1674011227064608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227064731, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1674011227066714, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674011227066799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227066814, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674011227069684, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1674011227069760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227070288, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1674011227072284, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1674011227072360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227072398, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1674011227076907, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227076974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227077061, "dur":12391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227089545, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227089624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227089639, "dur":212302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227301999, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227302072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227302085, "dur":50467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227352655, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227352759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227352773, "dur":107562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227460393, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227460456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227460466, "dur":67386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227527912, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227527979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227527991, "dur":33861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227561910, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227562022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227562037, "dur":31115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227593220, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227593295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227593335, "dur":29451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227622852, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227622922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227622934, "dur":45271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227668265, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227668325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227668337, "dur":37953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227706361, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227706458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227706471, "dur":64650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227771189, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227771332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227771346, "dur":69803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227841219, "dur":101284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227942510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011227942523, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011227945168, "dur":67279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228012454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228012468, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228014571, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228014632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228014643, "dur":93470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228108183, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228108245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228108258, "dur":162811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228271132, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228271194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228271206, "dur":156382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674011228427660, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1674011228427872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228428646, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1674011228431134, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1674011228431201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228431291, "dur":4289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1674011228435640, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674011228435708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228435719, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674011228438040, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1674011228438222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228438233, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1674011228439609, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674011228439669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228439680, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674011228441969, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674011228442044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228442057, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674011228443832, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674011228443893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228443905, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674011228445939, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1674011228446015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228446028, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1674011228447785, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674011228447847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228447858, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674011228449575, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1674011228449637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228449648, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1674011228451700, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1674011228451914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674011228451926, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1674011228453812, "dur":354801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227046667, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227047006, "dur":6860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227053867, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1674011227053969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227069092, "dur":13714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1674011227082909, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227082987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227083848, "dur":219230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227303167, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227303255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227303274, "dur":58175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227361515, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227361581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227361590, "dur":98797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227460459, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227460529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227460539, "dur":129965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227590650, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227590740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227590757, "dur":64881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227655730, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227655822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227655836, "dur":35020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227690916, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227690972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227690983, "dur":60617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227751663, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227751739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227751750, "dur":176593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227928418, "dur":71429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011227999853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011227999867, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228002269, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228002330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011228002342, "dur":244047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228246458, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228246531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011228246544, "dur":162775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228409385, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228409459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674011228409474, "dur":249120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nikit/OneDrive//Unity/ParadiseBuilds/0.2/Paradise_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674011228658652, "dur":149960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674011228815037, "dur":3399, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674011228844701, "dur": 1029, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674011228844049, "dur": 1724, "ph": "X", "name": "Write chrome-trace events", "args": {} },
